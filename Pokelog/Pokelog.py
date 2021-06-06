@@ -98,7 +98,7 @@ def setup(): #Introduzindo e vendo do que o usuario precisa
     setup[1] = input("Deseja imprimir as fraquezas? (s/n): ")
     setup[2] = input("Deseja imprimir as resistencias? (s/n): ")
     setup[3] = input("Deseja imprimir as imunidades? (s/n): ")
-    setup[4] = input("Deseja que eu faça todo o trabalho? (s/n): ") #Provisorio
+    setup[4] = input("Deseja utilizar o autolog? (s/n): ") #Provisorio
     for i in range(5):
         if setup[i] == 's':
             setup[i] = True
